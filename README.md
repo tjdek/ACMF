@@ -9,7 +9,7 @@ To evaluate the performance of ACM in the scenario with lower labeled data (5%),
 | ✔️ | ✔️ | ❌ | 🟩0.6839 | 🟦0.6795 | 🟨0.7433 | 🟪0.6137 | 🔴0.6801 |
 | **✔️** | **✔️** | **✔️** | 🟩0.6524 | 🟦**0.6889** | 🟨**0.7701** | 🟪**0.6797** | 🔴**0.6978** |
 
-*Note*: 🟩 **Label: Domain 1** *indicates that Domain 1 is utilized as the labeled source domain during training, and* 🟩0.6220 *represent the average performance evaluated across all domains. 
+*Note*: 🟩 **Label: Domain 1** *indicates that only use 5% of the data from a single domain (Domain 1) as labeled data, whereas all other domains (Domain 2, Domain 3, Domain 4) and the remaining 95% of the data in Domain 1 are completely unlabeled; * 🟩0.6220 *represent the average performance evaluated across all domains. 
 **Bold** values indicate the optimal setting or the highest performance in each column.*
 ### Data
 **Fundus**: https://github.com/emma-sjwang/Dofe <br>
